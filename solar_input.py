@@ -55,7 +55,6 @@ def parse_star_parameters(line, star):
     star.y = float(lines[5])
     star.Vx = float(lines[6])
     star.Vy = float(lines[7])
-    
 
 def parse_planet_parameters(line, planet):
     """Считывает данные о планете из строки.
